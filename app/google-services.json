@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "807650110068",
+    "firebase_url": "https://contactchat-5b15f.firebaseio.com",
+    "project_id": "contactchat-5b15f",
+    "storage_bucket": "contactchat-5b15f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807650110068:android:1fa77cd79371c51bdcff21",
+        "android_client_info": {
+          "package_name": "com.elvisoft.listcontacchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807650110068-c8oogmo92etb0botd97n5vvjqa2m8i7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVceZwH7Zk6Ykh5WwUELJpDoPd8SDE8rI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807650110068-c8oogmo92etb0botd97n5vvjqa2m8i7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
