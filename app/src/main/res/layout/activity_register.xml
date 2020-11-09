@@ -6,20 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
 
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="284dp"
-        android:layout_height="43dp"
-        android:layout_gravity="start"
-        android:layout_marginTop="20dp"
-        android:background="@android:color/holo_blue_bright"
-        android:enabled="false"
-        android:text="REGISTER"
-        android:textColor="@color/design_default_color_on_secondary"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -56,9 +42,11 @@
 
     <EditText
         android:id="@+id/editTextPersonName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="23dp"
+        android:layout_marginEnd="10dp"
         android:drawableLeft="@drawable/ic_usercontact"
         android:ems="10"
         android:hint="Firts Name"
@@ -69,9 +57,11 @@
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:drawableLeft="@drawable/key32"
         android:ems="10"
         android:hint="Password"
@@ -83,9 +73,11 @@
 
     <EditText
         android:id="@+id/editTextPersonLastName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:drawableLeft="@drawable/ic_usercontact"
         android:ems="10"
         android:hint="Last Name"
@@ -96,9 +88,11 @@
 
     <EditText
         android:id="@+id/editTextEmailAddress"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:drawableLeft="@drawable/mail32"
         android:ems="10"
         android:hint="Email"
@@ -109,9 +103,11 @@
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:drawableLeft="@drawable/ic_phonecontact"
         android:ems="10"
         android:hint="Phone"
@@ -119,5 +115,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
+
+    <Button
+        android:id="@+id/btnRegistrarahora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
